@@ -5,8 +5,6 @@ project:
     - "*.qmd"
     - "!**/README.md"
     - "!**/LICENSE"
-resources:
-  - CNAME
 lang: es
 website:
   title: "Esteban Navarro Díaz"
