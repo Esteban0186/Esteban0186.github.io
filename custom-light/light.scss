@@ -1,0 +1,264 @@
+/*-- scss:imports --*/
+@import 'variables';
+
+/*-- scss:rules --*/
+// Ajustes adicionales para tema claro
+
+// Mejoras para tarjetas
+.card {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+// Cabecera de página
+.quarto-title-banner {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+// Mejoras para imágenes
+.figure-img {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Ajustes para navegación
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 500;
+  color: #006699 !important;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.nav-link.active {
+  font-weight: 500;
+  color: #006699 !important;
+}
+
+// Mejoras para botones
+.btn-primary {
+  background-color: #006699;
+  border-color: #006699;
+}
+
+.btn-primary:hover {
+  background-color: #004466;
+  border-color: #004466;
+}
+
+// TOC flotante con mejor estilo
+.sidebar nav[role=doc-toc] ul>li>a.active {
+  border-left: 2px solid #006699;
+  color: #006699 !important;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+// Estilos para encabezados
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #004466;
+}
+
+h2 {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  color: #004466;
+}
+
+// Ajustes para bloques de código
+div.sourceCode {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+// Mejoras para el footer - altura reducida
+footer.footer {
+  background-color: #f8f9fa !important;
+  color: #333333 !important;
+  border-top: 1px solid #e0e0e0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 0.85rem !important;
+}
+
+.nav-footer {
+  padding: 0.4rem !important;
+  background-color: #f8f9fa !important;
+  min-height: auto !important;
+}
+
+.footer-items {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer .nav-item {
+  font-size: 0.85rem !important;
+  line-height: 1 !important;
+  margin: 0 0.3rem !important;
+  padding: 0 !important;
+}
+
+footer.footer a, .nav-footer a {
+  color: #006699 !important;
+}
+
+footer.footer a:hover, .nav-footer a:hover {
+  color: #004466 !important;
+}
+
+.nav-item.compact .bi {
+  color: #006699 !important;
+  font-size: 1rem !important;
+}
+
+// Iconos sociales en el footer
+.nav-footer-right .footer-items {
+  justify-content: flex-end !important;
+}
+
+.nav-footer-center .footer-items {
+  justify-content: center !important;
+}
+
+// Ajustes para paginación
+.pagination .page-link {
+  color: #006699;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #006699;
+  border-color: #006699;
+}
+
+// Mejoras para citas y blockquotes
+blockquote {
+  background-color: #f8f9fa;
+  border-left: 3px solid #006699;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #666666;
+}
+
+// Ajustes para tablas
+th {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+
+// Estilos para enlaces
+a {
+  text-decoration: none;
+  color: #006699;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #004466;
+  text-decoration: underline;
+}
+
+// Ajustes para categorías en listados
+.listing-category {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  color: #333333;
+  font-weight: normal;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.listing-category:hover {
+  background-color: #006699;
+  color: white;
+}
+
+// Mejoras para alertas
+.alert {
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+.alert-primary {
+  background-color: rgba(0, 102, 153, 0.1);
+  border-color: rgba(0, 102, 153, 0.2);
+  color: #004466;
+}
+
+// Ajustes para lista de contenido (TOC)
+#toc-title {
+  font-weight: 500;
+  color: #004466;
+}
+
+// Personalización del selector de tema
+.theme-toggle {
+  cursor: pointer;
+  color: #495057;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.theme-toggle:hover {
+  background-color: #f5f5f5;
+  color: #004466;
+}
+
+// Ajustes para formularios
+input, select, textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.5rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #006699;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 102, 153, 0.2);
+}
+
+// Utilidades para el espaciado
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+// Ajustes para iconos y elementos interactivos
+[role="button"] {
+  cursor: pointer;
+}
+
+// Transiciones suaves para cambios de tema
+body, .card, .navbar, pre, code, th, .alert {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+a, .btn {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+// Mejoras para texto
+p {
+  line-height: 1.7;
+}

@@ -1,0 +1,118 @@
+---
+title: "Investigación y Publicaciones"
+toc: false
+---
+
+# Investigación 
+
+Mi trabajo de investigación se centra en la intersección entre la psicología clínica, el análisis de datos y los estudios de género, con un enfoque particular en las masculinidades. A través de metodologías mixtas que combinan aproximaciones cualitativas y cuantitativas, busco generar conocimiento que contribuya tanto al avance teórico como a la aplicación práctica en el campo de la psicología.
+
+## Líneas de investigación
+
+### Masculinidades y género
+
+Mi principal línea de investigación se enfoca en el estudio de las masculinidades, abordando temas como:
+
+* **Nuevas masculinidades**: Exploración de modelos alternativos a la masculinidad hegemónica
+* **Prevención de violencia**: Desarrollo de modelos de intervención para la prevención de violencia de género desde el trabajo con hombres
+* **Políticas públicas**: Análisis y desarrollo de políticas públicas con enfoque de género
+
+Esta línea ha contribuido a la creación de programas de intervención y políticas nacionales, como mi participación en el comité de redacción de la "Política Nacional de masculinidades positivas" y el reglamento de la ley de Salud Masculina en Costa Rica.
+
+### Psicología clínica de pareja y familia
+
+Investigo dinámicas de pareja y familia desde una perspectiva humanista-sistémica, con énfasis en:
+
+* **Vínculos afectivos**: Estudio de los procesos de vinculación emocional en parejas
+* **Duelo y pérdidas**: Análisis de las experiencias de duelo en hombres tras pérdidas significativas
+* **Terapia focalizada en emociones**: Investigación sobre la efectividad de este enfoque en poblaciones latinoamericanas
+
+El trabajo "Masculinidad, vínculo y duelo: experiencias de pérdida de pareja en los hombres" representa una de mis principales contribuciones en este campo.
+
+### Análisis de datos en psicología
+
+Utilizo metodologías de ciencia de datos para el análisis de información psicológica, incluyendo:
+
+* **Análisis cualitativo asistido por software**: Uso de herramientas como ATLAS.ti y NVivo
+* **Modelado estadístico**: Aplicación de técnicas estadísticas para el análisis de información psicométrica
+* **Visualización de datos**: Creación de representaciones gráficas para facilitar la comprensión de fenómenos psicológicos complejos
+
+## Proyectos de investigación destacados
+
+### Explotación sexual comercial en adolescentes hombres (2010-2013)
+Miembro del equipo investigador en el proyecto "Explotación sexual comercial. Un estudio cualitativo con hombres adolescentes hombres", desarrollado por el Patronato Nacional de la Infancia (PANI) e Instituto Wëm.
+
+### Acoso sexual laboral y masculinidad (2013)
+Asistente del equipo investigador del proyecto "Acoso Sexual en el trabajo y masculinidad: Centroamérica y república dominicana", desarrollado para la Organización Internacional del Trabajo.
+
+### Monitoreo y evaluación de procesos con hombres (2015-2018)
+Encargado de planificación, monitoreo y evaluación (PME) de los procesos de trabajo con hombres para el Instituto Wëm y Pan para el Mundo.
+
+## Comités científicos
+
+He participado en comités científicos de importantes eventos académicos:
+
+* Coordinador del comité científico del "VII Coloquio Internacional de estudios de hombres y masculinidades" (Costa Rica, 2018)
+* Miembro del comité científico del "VI Coloquio Internacional de estudios de hombres y masculinidades" (Brasil, 2016)
+
+# Publicaciones
+
+<!-- references -->
+
+## 2018
+
+- **Navarro Díaz, E.** (2018). Parejas contraculturales: Metamorfosis del vínculo y de la sociedad. Ponencia presentada en el Sexto Congreso Latinoamericano de Psicología (ULAPSI), San Pedro de Montes de Oca, Costa Rica.
+
+- **Navarro Díaz, E.** (2018). Desarrollo de la empatía en la práctica clínica: Una aproximación desde la teoría del apego y la terapia focalizada en las emociones. _Revista Costarricense de Psicología_. Universidad de Costa Rica.
+
+## 2017
+
+- **Navarro Díaz, E.** (2017). De la psicopatología al potencial humano: tradición y aproximaciones a la investigación de la psicología humanista. Ponencia presentada en el Coloquio de Clínica 2017: Fenómenos de la clínica y tradiciones de pensamiento, Universidad de Costa Rica.
+
+- **Navarro Díaz, E.**, Campos, A. (2017). Manual para el trabajo con grupos de hombres: Promoción de masculinidades positivas y prevención de la violencia. Instituto WËM, INAMU. San José, Costa Rica.
+
+## 2016
+
+- **Navarro Díaz, E.** (2016). Amar desde la libertad: el modelo de trabajo con grupos de parejas del Instituto Wëm. Ponencia presentada en el VI Coloquio Internacional sobre Estudios de Hombres y Masculinidades, Pernambuco, Brasil.
+
+- Campos, A., **Navarro Díaz, E.**, Salas, J.M. (2016). Acciones que transforman: Insumos para el diseño de programas y políticas de promoción de masculinidades igualitarias. Instituto Nacional de las Mujeres (INAMU). San José, Costa Rica.
+
+## 2015
+
+- **Navarro Díaz, E.** (2015). Masculinidad y salud emocional: Un enfoque desde la terapia humanista. Revista Costarricense de Psicología, Vol. 34, No. 2, pp. 105-116.
+
+## 2014
+
+- **Navarro Díaz, E.** (2014). Masculinidad, vínculo y duelo: experiencias de pérdida de pareja en los hombres que asisten al Instituto Wëm. Ponencia presentada en el Tercer Encuentro Centroamericano de Masculinidades, Heredia, Costa Rica.
+
+## 2013
+
+- Salas, J.M., **Navarro Díaz, E.**, Campo, A. (2013). Acoso Sexual en el trabajo y masculinidad: Centroamérica y República Dominicana. Organización Internacional del Trabajo. San José, Costa Rica.
+
+## 2011
+
+- **Navarro Díaz, E.**, Campos, A. (2011). Una propuesta para la prevención de la explotación sexual comercial con hombres jóvenes desde el enfoque de género. Instituto Wëm y Pro-Mundo Global. San José, Costa Rica.
+
+## 2010
+
+- **Navarro Díaz, E.** (2010). Explotación sexual comercial: Un estudio cualitativo con hombres adolescentes. Informe de investigación. Patronato Nacional de la Infancia (PANI) e Instituto Wëm. San José, Costa Rica.
+
+<!-- /references -->
+
+# Trabajos dirigidos
+
+He tenido el honor de dirigir varios trabajos finales de graduación, entre los que destacan:
+
+## 2018
+- Calderón Trejos, A. G. (2018). Desarrollo de una propuesta de educación para la salud sexual con énfasis en VH/SIDA con estudiantes de décimo año pertenecientes a colegios de Cartago. Licenciatura en Psicología, Universidad de Costa Rica.
+
+## 2017
+- Álvarez Rodríguez, Y. (2017). Manual para la promoción de la aceptación de la imagen corporal, desde la Psicología de la Salud, con un abordaje sistémico. Licenciatura en Psicología, Universidad La Salle.
+
+- Sandí Calderón, D. (2017). Diseño de una guía dirigida a docentes de violín de la Escuela Municipal de Música de Cartago, para mediar con un enfoque constructivista y el uso de TIC. Licenciatura en Enseñanza de la Música, Universidad de Costa Rica.
+
+# Contribuciones a políticas públicas
+
+- Miembro del comité de creación del reglamento de la ley de Salud Masculina en Costa Rica (Ley No. 9172), 2016
+- Miembro del equipo de redacción del componente de masculinidades de la "Política Nacional de masculinidades positivas", 2016
+- Contribuidor al documento "Acciones que transforman: Insumos para el diseño de programas y políticas de promoción de masculinidades igualitarias y para la no violencia contra las mujeres", Instituto Nacional de las Mujeres (INAMU), 2016

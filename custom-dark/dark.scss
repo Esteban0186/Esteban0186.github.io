@@ -1,0 +1,238 @@
+/*-- scss:imports --*/
+@import 'variables';
+
+/*-- scss:rules --*/
+// Ajustes adicionales para tema oscuro
+
+// Mejorar contraste para código
+pre code {
+  color: #e0e0e0;
+}
+
+// Tarjetas con bordes más suaves
+.card {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+// Ajustes para la página principal
+.quarto-title-banner {
+  background-color: #202020;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// TOC flotante
+.sidebar.toc-left {
+  background-color: #202020;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// Navegación y cabecera
+.navbar-dark .navbar-brand {
+  color: #4db8ff;
+}
+
+// Ajustes para imágenes y figuras
+.figure-img {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+// Bloques de código con mejor contraste
+div.sourceCode {
+  background-color: #222222;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+// Botones
+.btn-primary {
+  background-color: #4db8ff;
+  border-color: #4db8ff;
+}
+
+.btn-primary:hover {
+  background-color: #80ccff;
+  border-color: #80ccff;
+}
+
+// Tabla de contenidos
+.sidebar nav[role=doc-toc] ul>li>a.active {
+  border-left: 1px solid #4db8ff;
+  color: #4db8ff !important;
+}
+
+// Tablas
+.table {
+  color: #e0e0e0;
+}
+
+// Footer optimizado para tema oscuro
+footer.footer {
+  background-color: #101010 !important;
+  color: #e0e0e0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.nav-footer {
+  padding: 0.4rem !important;
+  background-color: #101010 !important;
+  min-height: auto !important;
+}
+
+.footer-items {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer .nav-item {
+  font-size: 0.85rem !important;
+  line-height: 1 !important;
+  margin: 0 0.3rem !important;
+  padding: 0 !important;
+}
+
+footer.footer a, .nav-footer a {
+  color: #4db8ff !important;
+}
+
+footer.footer a:hover, .nav-footer a:hover {
+  color: #80ccff !important;
+}
+
+.nav-item.compact .bi {
+  color: #4db8ff !important;
+  font-size: 1rem !important;
+}
+
+// Iconos sociales en el footer
+.nav-footer-right .footer-items {
+  justify-content: flex-end !important;
+}
+
+.nav-footer-center .footer-items {
+  justify-content: center !important;
+}
+
+.page-footer .container-fluid, footer .container-fluid {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+// Paginación
+.pagination .page-link {
+  background-color: #2a2a2a;
+  border-color: #4d4d4d;
+  color: #e0e0e0;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #4db8ff;
+  border-color: #4db8ff;
+  color: #1a1a1a;
+}
+
+// Alertas y notificaciones
+.alert {
+  background-color: #2a2a2a;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.alert-primary {
+  background-color: rgba(77, 184, 255, 0.1);
+  border-color: rgba(77, 184, 255, 0.3);
+  color: #4db8ff;
+}
+
+.alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-color: rgba(255, 193, 7, 0.3);
+  color: #ffdb70;
+}
+
+// Secciones de código
+.cell-output {
+  background-color: #2a2a2a;
+  border: 1px solid #4d4d4d;
+}
+
+// Comentarios
+.comment {
+  color: #7a7a7a;
+}
+
+// Listados
+.listing-category {
+  background-color: #2a2a2a;
+  border-color: #4d4d4d;
+}
+
+// Enlaces de navegación
+.page-item.disabled .page-link {
+  background-color: #222222;
+  border-color: #4d4d4d;
+}
+
+// Formularios
+input, select, textarea {
+  background-color: #222222 !important;
+  border-color: #4d4d4d !important;
+  color: #e0e0e0 !important;
+}
+
+// Ajustes para contenido incrustado
+iframe {
+  border: 1px solid #4d4d4d;
+}
+
+// Ajustes para citas
+blockquote {
+  border-left: 3px solid #4d4d4d;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+// Ajustes para notas a pie de página
+.footnote-back {
+  color: #4db8ff;
+}
+
+// Ajustes para títulos de secciones
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// Estilos para encabezados de tarjetas
+.card-header {
+  background-color: #222222;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// Estilos para pies de tarjetas
+.card-footer {
+  background-color: #222222;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// Mejoras de accesibilidad
+::selection {
+  background-color: rgba(77, 184, 255, 0.3);
+  color: #ffffff;
+}
+
+// Mejoras de contraste
+.text-muted {
+  color: #a0a0a0 !important;
+}
+
+// Transiciones suaves para cambios de tema
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card, .navbar, pre, code, th, .alert {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+a, .btn {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}

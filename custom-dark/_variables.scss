@@ -1,0 +1,78 @@
+/*-- scss:defaults --*/
+
+// Color system
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+// Theme colors
+$primary:   #006699 !default;
+$secondary: #4d4d4d !default;
+$success:   #28a745 !default;
+$info:      #4db8ff !default;
+$warning:   #ffc107 !default;
+$danger:    #dc3545 !default;
+$light:     #f8f9fa !default;
+$dark:      #343a40 !default;
+
+// Body
+$body-bg:                   #1a1a1a !default;
+$body-color:                #e0e0e0 !default;
+
+// Links
+$link-color:                #4db8ff !default;
+$link-decoration:           none !default;
+$link-hover-color:          lighten($link-color, 15%) !default;
+$link-hover-decoration:     underline !default;
+
+// Typography
+$font-family-base:          "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace:     "Source Code Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$headings-font-family:      null !default;
+$headings-color:            #80ccff !default;
+
+// Borders
+$border-color:              #4d4d4d !default;
+$border-radius:             .25rem !default;
+
+// Cards
+$card-bg:                   #2a2a2a !default;
+$card-cap-bg:               lighten($card-bg, 3%) !default;
+$card-border-color:         $border-color !default;
+
+// Navbar
+$navbar-padding-y:          0.5rem !default;
+$navbar-padding-x:          1rem !default;
+$navbar-light-color:        $gray-200 !default;
+$navbar-light-hover-color:  $gray-100 !default;
+$navbar-light-active-color: $white !default;
+$navbar-dark-color:         $gray-200 !default;
+$navbar-dark-hover-color:   $gray-100 !default;
+$navbar-dark-active-color:  $white !default;
+$navbar-bg:                 #202020 !default;
+
+// Code
+$code-color:                $info !default;
+$code-bg:                   #2a2a2a !default;
+$pre-color:                 null !default;
+$pre-bg:                    #2a2a2a !default;
+
+// Table
+$table-bg:                  transparent !default;
+$table-accent-bg:           rgba($white, .05) !default;
+$table-hover-bg:            rgba($white, .075) !default;
+$table-border-color:        $border-color !default;
+$table-head-bg:             #2a2a2a !default;
+$table-head-color:          $gray-200 !default;
+
+// Blockquote
+$blockquote-color:            #b3b3b3 !default;
+$blockquote-border-color:     #4d4d4d !default;

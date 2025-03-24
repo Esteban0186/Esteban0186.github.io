@@ -1,0 +1,533 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!**/README.md"
+    - "!**/LICENSE"
+resources:
+  - CNAME
+lang: es
+website:
+  title: "Esteban Navarro Díaz"
+  site-url: https://estebannavarrodiaz.com
+  description: "Esteban Alfonso Navarro Díaz es un psicólogo clínico, científico de datos e investigador especializado en psicología de la salud, género y docencia universitaria."
+  favicon: img/favicon.ico
+  
+  # Barra de navegación mejorada
+  navbar:
+    background: primary
+    search: true
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: investigacion-publicaciones/index.qmd
+        text: Investigación y Publicaciones
+      - href: docencia/index.qmd
+        text: Docencia
+      - href: clinica/index.qmd
+        text: Psicología Clínica
+      - href: blog/index.qmd
+        text: Blog
+    
+    # Añadir redes sociales a la barra de navegación
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/
+        aria-label: LinkedIn
+      - icon: twitter
+        href: https://twitter.com/
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:esnadius@hotmail.com
+        aria-label: Email
+
+  # Pie de página mejorado
+  page-footer:
+    left: 
+      - text: "Esteban Alfonso Navarro Díaz, 2018"
+    center: 
+      - text: "Psicólogo Clínico e Investigador"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/
+      - icon: twitter
+        href: https://twitter.com/
+      - icon: github
+        href: https://github.com/
+      - icon: envelope
+        href: mailto:esnadius@hotmail.com
+  
+  # Mejorar metadatos para redes sociales
+  twitter-card: 
+    creator: "@estebannavarro"
+    card-style: summary_large_image
+    image: img/perfil.jpg
+  
+  open-graph: 
+    title: "Esteban Navarro Díaz - Psicólogo e Investigador"
+    description: "Psicólogo clínico, científico de datos e investigador especializado en psicología de la salud, género y docencia universitaria."
+    image: img/perfil.jpg
+  
+  # Añadir Google Analytics (comentado, añadir ID cuando esté disponible)
+  # google-analytics: "UA-XXXXXXXX-X"
+  
+  # Habilitar búsqueda en el sitio
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+
+format:
+  html:
+    theme: 
+      light: [cosmo, custom-light/light.scss]
+    
+    # Opciones de tabla de contenido
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    toc-title: "En esta página"
+    toc-expand: true
+    
+    # Scroll suave y destacado
+    smooth-scroll: true
+    anchor-sections: true
+
+    
+    # Opciones de figuras
+    fig-responsive: true
+    fig-align: center
+    fig-format: retina
+    fig-width: 7
+    fig-height: 5
+    
+    # Opciones de citas y referencias
+    citations-hover: true
+    footnotes-hover: true
+    reference-location: margin
+    
+    # Opciones de navegación
+    page-navigation: true
+    back-to-top-navigation: true
+    
+    # Opciones de impresión
+    pdf-separate-fragments: false
+    
+    # Opciones de idioma
+    html-lang: es
+    date-format: "DD [de] MMMM [de] YYYY"
+    
+    # Mejoras para SEO
+    metadata-files: 
+      - "_metadata.yml"
+    
+    # Idioma y traducciones
+    language:
+      es:
+        title-block-modified: "Última modificación"
+        title-block-published: "Publicado"
+        title-block-author: "Autor"
+        title-block-affiliation: "Afiliación"
+        code-summary: "Mostrar código"
+        toc-title: "Índice"
+        toc-title-document: "Contenido del documento"
+        appendix-attribution: "Apéndice"
+        abstract: "Resumen"
+        backlink: "Regresar"
+        citation: "Cita"
+        first-published: "Publicado primero"
+        listing-page-item-count: "{} elementos"
+        listing-page-category-item-count: "{} elementos"
+        metadata-available-as: "Metadatos disponibles"
+        metadata-license: "Licencia"
+        on-this-page: "En esta página"
+        open-in: "Abrir en {}"
+        related: "Contenido relacionado"
+        section: "Sección"
+        source: "Fuente"
+        more-information: "Más información"
+        abstract-title: "Resumen"
+        acknowledgements-title: "Agradecimientos"
+        appendix-title: "Apéndice"
+        captions:
+          appendix: "Apéndice"
+          chapter: "Capítulo"
+          code: "Código"
+          crossref: "Referencia cruzada"
+          equation: "Ecuación"
+          exercise: "Ejercicio"
+          figure: "Figura"
+          listing: "Listado"
+          part: "Parte"
+          proof: "Demostración"
+          section: "Sección"
+          table: "Tabla"
+          theorem: "Teorema"
+          title: "Título"
+        copy-to-clipboard-copy: "Copiar al portapapeles"
+        copy-to-clipboard-copied: "¡Copiado!"
+        line-drawing-instructions: "Hacer clic y arrastrar para dibujar una línea"
+    include-in-header:
+      text: |
+        <script type='application/ld+json'>{"@context":"http://www.schema.org","@type":"person","name":"Esteban Alfonso Navarro Díaz","jobTitle":"Psicólogo e Investigador","gender":"male","description":"Esteban Alfonso Navarro Díaz es un psicólogo clínico, científico de datos e investigador especializado en psicología de la salud, género y docencia universitaria.","url":"https://estebannavarrodiaz.com","image":"https://estebannavarrodiaz.com/img/perfil.jpg","address":{"@type":"PostalAddress","addressLocality":"San José","addressCountry":"Costa Rica"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Universidad de Costa Rica"}],"worksFor":[{"@type":"Organization","name":"Universidad de Costa Rica"}],"birthDate":"1986-01-10","birthPlace":"Costa Rica"}</script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <script>
+          // Crear variables CSS para temas
+          const lightStyles = `
+            :root {
+              --background-color: #ffffff;
+              --text-color: #333333;
+              --link-color: #006699;
+              --link-hover-color: #004466;
+              --heading-color: #004466;
+              --border-color: #e0e0e0;
+              --code-bg: #f5f5f5;
+              --navbar-bg: #ffffff;
+              --navbar-fg: #333333;
+              --footer-bg: #f5f5f5;
+              --blockquote-color: #666666;
+              --blockquote-border: #cccccc;
+              --card-bg: #ffffff;
+              --card-shadow: rgba(0, 0, 0, 0.05);
+              --accent-color: #006699;
+            }
+          `;
+          
+          const darkStyles = `
+            :root {
+              --background-color: #1a1a1a;
+              --text-color: #e0e0e0;
+              --link-color: #4db8ff;
+              --link-hover-color: #80ccff;
+              --heading-color: #80ccff;
+              --border-color: #4d4d4d;
+              --code-bg: #2a2a2a;
+              --navbar-bg: #202020;
+              --navbar-fg: #e0e0e0;
+              --footer-bg: #202020;
+              --blockquote-color: #b3b3b3;
+              --blockquote-border: #4d4d4d;
+              --card-bg: #2a2a2a;
+              --card-shadow: rgba(0, 0, 0, 0.2);
+              --accent-color: #4db8ff;
+            }
+          `;
+          
+          // Función para alternar entre temas claro y oscuro
+          function toggleTheme() {
+            const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            // Cambiar clases del body
+            if (newTheme === 'dark') {
+              document.body.classList.add('dark-theme');
+              document.querySelector('html').setAttribute('data-theme', 'dark');
+              document.getElementById('theme-styles').innerHTML = darkStyles;
+            } else {
+              document.body.classList.remove('dark-theme');
+              document.querySelector('html').setAttribute('data-theme', 'light');
+              document.getElementById('theme-styles').innerHTML = lightStyles;
+            }
+            
+            // Actualizar el ícono del botón
+            const themeToggle = document.getElementById('theme-toggle');
+            if (themeToggle) {
+              themeToggle.innerHTML = newTheme === 'dark' 
+                ? '<i class="fas fa-sun" style="font-size: 1.2rem;"></i>' 
+                : '<i class="fas fa-moon" style="font-size: 1.2rem;"></i>';
+            }
+            
+            // Ajustar el footer inmediatamente
+            optimizeFooter();
+            
+            // Guardar la preferencia en localStorage
+            localStorage.setItem('theme', newTheme);
+          }
+          
+          // Crear y añadir estilos dinámicos
+          function createStyleElement() {
+            const styleElement = document.createElement('style');
+            styleElement.id = 'theme-styles';
+            document.head.appendChild(styleElement);
+            return styleElement;
+          }
+          
+          // Inicializar tema según preferencia del usuario
+          function initializeTheme() {
+            // Crear elemento de estilo si no existe
+            let styleElement = document.getElementById('theme-styles');
+            if (!styleElement) {
+              styleElement = createStyleElement();
+            }
+            
+            // Determinar tema inicial
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const defaultTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+            
+            // Aplicar tema inicial
+            if (defaultTheme === 'dark') {
+              document.body.classList.add('dark-theme');
+              document.querySelector('html').setAttribute('data-theme', 'dark');
+              styleElement.innerHTML = darkStyles;
+            } else {
+              document.body.classList.remove('dark-theme');
+              document.querySelector('html').setAttribute('data-theme', 'light');
+              styleElement.innerHTML = lightStyles;
+            }
+            
+            // Crear botón de tema
+            const themeIcon = defaultTheme === 'dark' ? 'fa-sun' : 'fa-moon';
+            
+            // Añadir botón a la barra de navegación
+            setTimeout(() => {
+              const navbar = document.querySelector('.navbar .container-fluid');
+              if (navbar) {
+                // Crear contenedor para el botón
+                const themeToggleContainer = document.createElement('div');
+                themeToggleContainer.className = 'theme-toggle-container';
+                themeToggleContainer.style.marginLeft = 'auto';
+                themeToggleContainer.style.marginRight = '0.5rem';
+                
+                // Verificar si el botón ya existe y eliminarlo para evitar duplicados
+                const existingButton = document.getElementById('theme-toggle');
+                if (existingButton) {
+                  existingButton.parentNode.removeChild(existingButton);
+                }
+                
+                // Crear botón
+                const themeToggleBtn = document.createElement('button');
+                themeToggleBtn.id = 'theme-toggle';
+                themeToggleBtn.className = 'btn btn-sm';
+                themeToggleBtn.setAttribute('aria-label', 'Cambiar tema');
+                themeToggleBtn.innerHTML = `<i class="fas ${themeIcon}" style="font-size: 1rem;"></i>`;
+                themeToggleBtn.style.background = 'none';
+                themeToggleBtn.style.border = 'none';
+                themeToggleBtn.style.cursor = 'pointer';
+                themeToggleBtn.style.color = 'var(--navbar-fg)';
+                themeToggleBtn.style.padding = '0.25rem 0.5rem';
+                themeToggleBtn.style.height = '100%';
+                themeToggleBtn.style.lineHeight = '1';
+                themeToggleBtn.style.marginTop = '0';
+                themeToggleBtn.style.marginBottom = '0';
+                themeToggleBtn.addEventListener('click', toggleTheme);
+                
+                // Añadir botón al contenedor
+                themeToggleContainer.appendChild(themeToggleBtn);
+                
+                // Añadir contenedor a la barra de navegación
+                navbar.appendChild(themeToggleContainer);
+              }
+            }, 500);
+          }
+          
+          // Script para ajustar la altura del navbar
+          function optimizeNavbar() {
+            const navbar = document.querySelector('.navbar');
+            if (navbar) {
+              // Reducir el espacio en la barra de navegación
+              navbar.style.padding = '0.25rem 1rem';
+              navbar.style.minHeight = 'auto';
+              
+              // Reducir el espacio en los enlaces de navegación
+              const navLinks = document.querySelectorAll('.nav-link');
+              navLinks.forEach(link => {
+                link.style.padding = '0.25rem 0.6rem';
+                link.style.fontSize = '0.95rem';
+                link.style.lineHeight = '1.2';
+                link.style.display = 'flex';
+                link.style.alignItems = 'center';
+                link.style.height = '100%';
+              });
+              
+              // Ajustar el brand
+              const brand = document.querySelector('.navbar-brand');
+              if (brand) {
+                brand.style.paddingTop = '0.15rem';
+                brand.style.paddingBottom = '0.15rem';
+                brand.style.fontSize = '1.1rem';
+                brand.style.display = 'flex';
+                brand.style.alignItems = 'center';
+                brand.style.height = '100%';
+              }
+              
+              // Alinear todos los elementos del navbar
+              const navbarNav = document.querySelector('.navbar-nav');
+              if (navbarNav) {
+                navbarNav.style.display = 'flex';
+                navbarNav.style.alignItems = 'center';
+                navbarNav.style.height = '100%';
+                
+                // Alinear elementos de menú individualmente
+                const navItems = navbarNav.querySelectorAll('.nav-item');
+                navItems.forEach(item => {
+                  item.style.display = 'flex';
+                  item.style.alignItems = 'center';
+                  item.style.height = '100%';
+                });
+              }
+              
+              // Ajustar el toggler del navbar en móviles
+              const toggler = document.querySelector('.navbar-toggler');
+              if (toggler) {
+                toggler.style.padding = '0.25rem 0.5rem';
+                toggler.style.fontSize = '0.9rem';
+              }
+              
+              // Eliminar padding en el contenedor y alinear verticalmente
+              const container = document.querySelector('.navbar .container-fluid');
+              if (container) {
+                container.style.padding = '0';
+                container.style.display = 'flex';
+                container.style.alignItems = 'center';
+                container.style.height = '100%';
+                
+                // Asegurar que todos los hijos estén alineados
+                Array.from(container.children).forEach(child => {
+                  child.style.display = 'flex';
+                  child.style.alignItems = 'center';
+                  child.style.height = '100%';
+                });
+              }
+            }
+          }
+          
+          // Ejecutar cuando el DOM esté listo
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+              initializeTheme();
+              optimizeNavbar();
+            });
+          } else {
+            initializeTheme();
+            optimizeNavbar();
+          }
+          
+          // Observar cambios en el DOM para volver a aplicar los ajustes después de posibles recargas
+          const observer = new MutationObserver(function(mutations) {
+            optimizeNavbar();
+          });
+          
+          // Iniciar la observación cuando el DOM esté listo
+          setTimeout(function() {
+            const targetNode = document.querySelector('header');
+            if (targetNode) {
+              observer.observe(targetNode, { childList: true, subtree: true });
+            }
+            
+            // Optimizar el footer
+            optimizeFooter();
+          }, 1000);
+          
+          // Función para optimizar la altura del footer
+          function optimizeFooter() {
+            // Nuevo enfoque para detectar el footer real (basado en la estructura proporcionada)
+            const footer = document.querySelector('footer.footer');
+            if (footer) {
+              // Ajustar padding y márgenes
+              footer.style.padding = '0';
+              footer.style.fontSize = '0.85rem';
+              footer.style.marginTop = '0';
+              
+              // Determinar si estamos en tema oscuro
+              const isDarkTheme = document.body.classList.contains('dark-theme') || 
+                                 document.querySelector('html').getAttribute('data-theme') === 'dark';
+              
+              // Aplicar color de fondo según tema
+              if (isDarkTheme) {
+                footer.style.backgroundColor = '#101010';
+                footer.style.color = '#e0e0e0';
+                footer.style.borderTop = '1px solid rgba(255, 255, 255, 0.1)';
+              } else {
+                footer.style.backgroundColor = '#f8f9fa';
+                footer.style.color = '#333333';
+                footer.style.borderTop = '1px solid #e0e0e0';
+              }
+              
+              // Ajustar el contenedor nav-footer
+              const navFooter = footer.querySelector('.nav-footer');
+              if (navFooter) {
+                navFooter.style.padding = '0.4rem';
+                navFooter.style.margin = '0';
+                navFooter.style.minHeight = 'auto';
+              }
+              
+              // Ajustar secciones
+              const sections = footer.querySelectorAll('.nav-footer-left, .nav-footer-center, .nav-footer-right');
+              sections.forEach(section => {
+                section.style.padding = '0';
+                section.style.margin = '0';
+              });
+              
+              // Ajustar listas
+              const lists = footer.querySelectorAll('.footer-items');
+              lists.forEach(list => {
+                list.style.margin = '0';
+                list.style.padding = '0';
+                list.style.display = 'flex';
+                list.style.alignItems = 'center';
+              });
+              
+              // Ajustar elementos de lista
+              const items = footer.querySelectorAll('.nav-item');
+              items.forEach(item => {
+                item.style.padding = '0';
+                item.style.margin = '0 0.3rem';
+                item.style.lineHeight = '1';
+                item.style.fontSize = '0.85rem';
+              });
+              
+              // Ajustar enlaces compactos (iconos)
+              const compactItems = footer.querySelectorAll('.nav-item.compact');
+              compactItems.forEach(item => {
+                item.style.display = 'inline-flex';
+                item.style.alignItems = 'center';
+                
+                const link = item.querySelector('.nav-link');
+                if (link) {
+                  link.style.padding = '0.2rem 0.4rem';
+                  link.style.margin = '0';
+                  link.style.lineHeight = '1';
+                }
+                
+                const icon = item.querySelector('.bi');
+                if (icon) {
+                  icon.style.fontSize = '1rem';
+                  icon.style.lineHeight = '1';
+                }
+              });
+              
+              // Ajustar enlaces
+              const links = footer.querySelectorAll('a');
+              links.forEach(link => {
+                if (isDarkTheme) {
+                  link.style.color = '#4db8ff';
+                } else {
+                  link.style.color = '#006699';
+                }
+                link.style.padding = '0.2rem';
+              });
+            }
+          }
+          }
+          
+          // Observar cambios en el tema para actualizar el footer
+          const themeObserver = new MutationObserver(function(mutations) {
+            optimizeFooter();
+          });
+          
+          setTimeout(function() {
+            const html = document.querySelector('html');
+            if (html) {
+              themeObserver.observe(html, { attributes: true, attributeFilter: ['data-theme'] });
+            }
+          }, 1000);
+        </script>
+
+
+

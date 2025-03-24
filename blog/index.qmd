@@ -1,0 +1,40 @@
+---
+title: "Blog"
+subtitle: "Artículos y reflexiones sobre psicología, investigación y más"
+listing:
+  contents: .
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  date-format: "D [de] MMMM, YYYY"
+  page-size: 9
+  image-height: "200px"
+  image-placeholder: "placeholder.jpg"
+  fields: [image, date, title, author, description, categories, reading-time]
+  field-display-names:
+    categories: "Categorías"
+    reading-time: "Tiempo de lectura"
+  
+page-layout: full
+title-block-banner: false
+title-block-banner-color: "#f8f9fa"
+search: true
+
+format:
+  html:
+    code-fold: true
+    css: blog-styles.css
+---
+
+En esta sección comparto reflexiones, artículos y apuntes sobre temas relacionados con la psicología clínica, el análisis de datos en psicología, masculinidades, sexualidad y más. Es un espacio para explorar ideas y compartir conocimientos desde una perspectiva tanto académica como personal.
+
+Los posts están organizados por categorías temáticas que puedes filtrar usando los botones de arriba. También puedes utilizar el buscador para encontrar contenidos específicos de tu interés.
+
+::: {.callout-note appearance="simple"}
+## Suscríbete
+
+Puedes suscribirte a las actualizaciones de este blog a través del [feed RSS](/blog/index.xml) o siguiéndome en [Twitter](https://twitter.com/).
+:::

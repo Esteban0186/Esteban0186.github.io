@@ -1,0 +1,94 @@
+---
+title: "Título del artículo"
+description: "Descripción breve del artículo (150 caracteres máximo)"
+date: "2023-07-15"
+categories: [Categoría 1, Categoría 2]
+image: "imagen-portada.jpg"
+author: "Esteban Alfonso Navarro Díaz"
+draft: true # Cambiar a false para publicar
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contenido"
+    code-fold: show
+    code-tools: true
+    code-link: true
+    highlight-style: github
+    
+# Metadatos para redes sociales
+twitter-card:
+  card-style: summary_large_image
+  image: "imagen-portada.jpg"
+  
+open-graph:
+  image: "imagen-portada.jpg"
+  
+# Citas académicas (opcional)
+citation: 
+  type: article
+  container-title: "Blog de Esteban Navarro Díaz"
+  doi: ""
+  url: ""
+  
+# Etiquetas para búsqueda y categorización
+keywords: [etiqueta1, etiqueta2, etiqueta3]
+
+# Notas del autor (opcional)
+note: "Espacio para notas del autor o información adicional"
+---
+
+<!-- Aquí va una breve introducción o resumen (1-2 párrafos) -->
+
+## Introducción
+
+Introducción al tema del artículo. Contexto y antecedentes.
+
+## Desarrollo
+
+Desarrollo del tema principal.
+
+### Subtítulo 1
+
+Contenido relacionado al subtítulo 1.
+
+### Subtítulo 2
+
+Contenido relacionado al subtítulo 2.
+
+## Conclusiones
+
+Conclusiones principales y reflexiones finales.
+
+## Referencias
+
+::: {#refs}
+:::
+
+<!-- Comentarios internos (no se mostrarán en la página) -->
+<!--
+Nota: Estructura recomendada para los artículos
+1. Introducción: Contexto y antecedentes
+2. Desarrollo: Análisis y argumentación
+3. Conclusiones: Síntesis y reflexiones finales
+4. Referencias: Bibliografía y fuentes consultadas
+-->
+
+<!-- Información sobre el autor -->
+::: {.author-info}
+**Sobre el autor**: Esteban Alfonso Navarro Díaz es psicólogo clínico e investigador especializado en psicología de la salud, género y docencia universitaria.
+:::
+
+<!-- Sección para compartir en redes sociales -->
+::: {.share-buttons}
+¿Te gustó este artículo? Compártelo en:
+
+- [Twitter](https://twitter.com/intent/tweet?url={{< meta url >}}&text={{< meta title >}})
+- [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url={{< meta url >}}&title={{< meta title >}})
+- [Facebook](https://www.facebook.com/sharer/sharer.php?u={{< meta url >}})
+:::
+
+<!-- Fecha de última actualización -->
+::: {.last-updated}
+Última actualización: {{< meta date-modified >}}
+:::

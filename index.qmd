@@ -1,0 +1,78 @@
+---
+title: "Esteban Navarro Díaz"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: "https://www.linkedin.com/"
+        - icon: github
+          text: Github
+          url: "https://github.com/"
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:esnadius@hotmail.com
+image: https://placehold.co/400x600
+comments: false
+toc: false
+---
+
+<script type='application/ld+json'>
+{"@context":"http://www.schema.org","@type":"person","name":"Esteban Alfonso Navarro Díaz","jobTitle":"Psicólogo e Investigador","gender":"male","description":"Esteban Alfonso Navarro Díaz es un psicólogo clínico, científico de datos e investigador especializado en psicología de la salud, género y docencia universitaria.","url":"https://estebannavarrodiaz.com","birthDate":"1986-01-10","birthPlace":"Costa Rica","worksFor":[{"@type":"Organization","name":"Universidad de Costa Rica"}],"alumniOf":[{"@type":"CollegeOrUniversity","name":"Universidad de Costa Rica"}]}
+</script>
+
+## Biografía
+
+Soy psicólogo clínico y de la salud, científico de datos e investigador con amplia experiencia en psicología clínica, trabajo con grupos, terapia de pareja/familias, investigación en género (masculinidad), políticas públicas, trabajo comunitario y docencia universitaria.
+
+Me gradué con honores de la Universidad de Costa Rica, obteniendo mi Licenciatura en Psicología (2014) y mi Maestría en Psicología Clínica y de la Salud (2018). Cuento con una sólida formación en terapias humanistas-experienciales como Gestalt y Psicodrama, así como certificaciones en terapias humanistas-sistémicas como la Terapia Focalizada en las Emociones (TFE).
+
+Actualmente, me desempeño como profesor universitario, terapeuta clínico e investigador. Mi trabajo se centra en la intersección entre la psicología clínica, la ciencia de datos y la investigación en género, con un enfoque particular en las nuevas masculinidades y la psicología de la salud.
+
+## Áreas de especialización e investigación
+
+* **Psicología clínica y de la salud**: Terapia individual, grupal, de parejas y familias con enfoque en terapias humanistas-sistémicas
+* **Género y masculinidades**: Investigación en nuevas masculinidades, trabajo con hombres y prevención de violencia
+* **Análisis de datos en psicología**: Aplicación de ciencia de datos para la investigación en psicología clínica y social
+* **Políticas públicas**: Desarrollo de programas y políticas públicas con enfoque de género
+* **Sexualidad integral**: Educación, investigación y abordaje clínico de la sexualidad
+
+## Docencia
+
+Cuento con más de 10 años de experiencia en docencia universitaria en instituciones como la Universidad de Costa Rica, Universidad La Salle y Universidad Autónoma de Monterrey, impartiendo cursos como:
+
+* Psicoterapia Humanista y Sistémica
+* Sexualidad y Placer
+* Familia y Pareja
+* Psicoterapia Grupal
+* Técnicas de Psicoterapia
+
+Puede encontrar más información sobre mi experiencia docente [aquí](teaching).
+
+## Publicaciones y conferencias destacadas
+
+He participado como ponente y miembro de comités organizadores en diversos eventos científicos internacionales, incluyendo el Coloquio Internacional de Estudios de Hombres y Masculinidades. También he contribuido al desarrollo de políticas públicas en temas de género y salud masculina en Costa Rica.
+
+* **Masculinidad, vínculo y duelo: experiencias de pérdida de pareja en los hombres.** Ponencia presentada en el Tercer Encuentro Centroamericano de Masculinidades, 2014.
+
+* **Amar desde la libertad: el modelo de trabajo con grupos de parejas.** Ponencia presentada en el VI Coloquio Internacional sobre Estudios de Hombres y Masculinidades, Brasil, 2016.
+
+* **Parejas contraculturales: Metamorfosis del vínculo y de la sociedad.** Ponencia presentada en el Sexto Congreso Latinoamericano de Psicología (ULAPSI), Costa Rica, 2018.
+
+Vea mi lista completa de publicaciones [aquí](papers).
+
+## Afiliaciones profesionales
+
+**[Colegio Profesional de Psicólogos de Costa Rica](https://psicologiacr.com/)**  | Miembro incorporado desde 2014
+
+**[Miembro suplente del Tribunal de Honor](https://psicologiacr.com/)** | 2018-presente
+
+## Servicios de psicología clínica
+
+Ofrezco servicios de psicoterapia individual, grupal, de pareja y familia con un enfoque integrador basado en las terapias humanistas-sistémicas. Mi especialización incluye:
+
+* Terapia focalizada en las emociones para parejas y familias
+* Trabajo con hombres adultos y adolescentes
+* Psicoterapia grupal con enfoque Gestalt
+* Abordaje de temas de sexualidad desde una perspectiva integral
+
+Para más información sobre mis servicios clínicos, puede visitar [esta sección](clinica).
